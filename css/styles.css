@@ -976,7 +976,7 @@ background: var(--ocean);
 /* Tablet */
 
 @media screen and (min-width:768px ) {
-    /*Header*/
+    /* Header */
     .burger-btn{
         display: none;
     }

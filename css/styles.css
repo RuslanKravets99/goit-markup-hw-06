@@ -1090,17 +1090,23 @@ background: var(--ocean);
         flex-wrap: wrap;
         gap: 72px 24px;
     }
+    .advant-tittle{
+        text-align: left;
+    }
     .advant-li{
         flex-basis:calc((100% - 24px) / 2);
     }
     /* Team */
     .team{
-        padding: 96px 92px;
+        padding: 96px 0;
     }
     .cont-team-list {
+        width: 584px;
+        margin-right: auto;
+        margin-left: auto;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 61px 24px;
+        gap: 64px 24px;
     }
 
     .box-list{
@@ -1120,7 +1126,7 @@ background: var(--ocean);
         flex-direction: row; 
         flex-wrap: wrap;
         gap: 72px 24px;
-        padding-left: 108px;
+        width: 584px;
     }
     .log-cont{
         align-items: flex-start;
@@ -1273,15 +1279,21 @@ background: var(--ocean);
     }
 
     /* Footer */
+   
     .foot-cont{
         gap: 0;
+        width: 1128px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        align-items: baseline;
     }
     .log-cont{
         margin-right: 120px;
         max-width: 264px;
     }
     .subscribe-form-wrap{
-        margin-left: 80px;  
+        margin-left: 80px;
     }
     .em-subscr-input{
         border: 1px solid var(--white);

@@ -772,8 +772,6 @@ background: var(--ocean);
 }
 .form-block{
     border-radius: 4px;
-    width: 256px;
-    
 }
 .close-button{
     border:  1px solid rgba(0, 0, 0, 0.1);
@@ -1156,9 +1154,7 @@ background: var(--ocean);
         top: 96px;
         transform: translateX(-50%);
     }
-    .form-block{
-        width: 360px;
-    }
+    
 
 }
 /* Computer */
@@ -1316,9 +1312,7 @@ background: var(--ocean);
         top: 50%;
         transform: translate(-50%,-50%);
     }
-    .form-block{
-        width: 360px;
-    }
+    
     .btn-form:hover{
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: var(--ocean);
